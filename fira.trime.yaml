@@ -304,17 +304,17 @@ preset_keyboards:
       - {click: 6, long_click: '^', key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18}
       - {click: 7, long_click: '&', key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18}
       - {click: 8, long_click: '*', key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18}
-      - {click: 9, long_click: '(){Left}',composing: Page_Up, key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18}
-      - {click: 0, long_click: '-', composing: Page_Down, key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18}
+      - {click: 9, long_click: '(){Left}', swipe_down: '{Parentheses}{Left}', hint: "_", key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18}
+      - {click: 0, long_click: '-', swipe_down: '{doubleDash}', hint: "_", key_back_color: bh1, key_text_color: th1,key_text_offset_y: 7,key_text_size: 18} 
 
-      - {click: q, long_click: '～', key_back_color: bh2, key_text_color: th2}
+      - {click: q, long_click: '~', key_back_color: bh2, key_text_color: th2}
       - {click: w, long_click: '`', key_back_color: bh2, key_text_color: th2}
       - {click: e, long_click: '+', key_back_color: bh2, key_text_color: th2}
       - {click: r, long_click: '=', key_back_color: bh2, key_text_color: th2}
       - {click: t, long_click: '·', key_back_color: bh2, key_text_color: th2}
       - {click: y, long_click: '|', key_back_color: bh2, key_text_color: th2}
-      - {click: u, long_click: '/', key_back_color: bh2, key_text_color: th2}
-      - {click: i, long_click: "_", key_back_color: bh2, key_text_color: th2}
+      - {click: u, long_click: '{Slash}', swipe_down: '{Backslash}', hint: "_", key_back_color: bh2, key_text_color: th2}
+      - {click: i, long_click: "{Underline}", key_back_color: bh2, key_text_color: th2}
       - {click: o, key_back_color: bh2, key_text_color: th2}
       - {click: p, long_click: Keyboard_bqrw, key_back_color: bh2, key_text_color: th2}
 
@@ -322,12 +322,12 @@ preset_keyboards:
       - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
       - {click: s, long_click: '「」{Left}', key_back_color: bh2, key_text_color: th2}
       - {click: d, long_click: '『』{Left}', key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '{}{Left}', key_back_color: bh2, key_text_color: th2}
-      - {click: g, long_click: '[]{Left}', key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: '～', key_back_color: bh2, key_text_color: th2}
+      - {click: f, long_click: '{Brackets}', key_back_color: bh2, key_text_color: th2}
+      - {click: g, long_click: '{Braces}', key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: '{Chevrons}', key_back_color: bh2, key_text_color: th2}
       - {click: j, long_click: '、', key_back_color: bh2, key_text_color: th2}
-      - {click: k, long_click: "'", key_back_color: bh2, key_text_color: th2}
-      - {click: l, long_click: '"', key_back_color: bh2, key_text_color: th2}
+      - {click: k, long_click: "'", swipe_down: '{Apostrophe}', hint: "_", key_back_color: bh2, key_text_color: th2}
+      - {click: l, long_click: '"', swipe_down: '{quotationMark}', hint: "_", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, hilited_key_text_color: tenter, key_back_color: bbs, key_text_color: tbs}
@@ -341,11 +341,11 @@ preset_keyboards:
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
-      - {click: Left, long_click: Home, key_back_color: bgn, key_text_color: tgn}
-      - {click: ',', label: '，', long_click: Color_switch, key_back_color: bh4, key_text_color: th4}
+      - {click: ',', label: '，', long_click: Color_switch, swipe_down: '{Comma}',  hint: "_", key_back_color: bh4, key_text_color: th4}
+      - {click: Left, long_click: Home, composing: Page_Up, key_back_color: bgn, key_text_color: tgn}
       - {click: space,, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 32.5, key_back_color: bkg, key_text_color: tkg}
-      - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, key_back_color: bh4, key_text_color: th4}
-      - {click: Right, long_click: End , key_back_color: bgn, key_text_color: tgn}
+      - {click: Right, long_click: End , composing: Page_Down,  key_back_color: bgn, key_text_color: tgn}
+      - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, swipe_down: 'Period',  hint: "_", key_back_color: bh4, key_text_color: th4}
       - {click: Return, composing: Return1, width: 15, key_back_color: benter, key_text_color: tenter}
 
   number:
@@ -360,26 +360,26 @@ preset_keyboards:
       - {click: 2}
       - {click: 3}
       - {click: '+', key_back_color: bgn, key_text_color: tgn}
-      - {click: '*', key_back_color: bgn, key_text_color: tgn}
-      - {click: '{}{Left}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Asterisk}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Brackets}', long_click: '{Braces}', key_back_color: bgn, key_text_color: tgn}
 
 
       - {click: 4}
       - {click: 5}
       - {click: 6}
-      - {click: '-', long_click: '%', key_back_color: bgn, key_text_color: tgn}
-      - {click: '_', key_back_color: bgn, key_text_color: tgn}
-      - {click: '/', long_click: '\', key_back_color: bgn, key_text_color: tgn}
+      - {click: '-', long_click: '{Percent}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Underline}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Slash}', long_click: '{Backslash}', key_back_color: bgn, key_text_color: tgn}
 
       - {click: 7}
       - {click: 8}
       - {click: 9}
-      - {click: '(){Left}', long_click: '@', key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Parentheses}', long_click: '@', key_back_color: bgn, key_text_color: tgn}
       - {click: BackSpace, width: 33.2, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_default, key_back_color: bgn, key_text_color: 'tgn'}
       - {click: 0}
-      - {click: ., key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Period}', long_click: '{Comma}', key_back_color: bgn, key_text_color: tgn}
       - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
       - {click: space1, key_back_color: bgn, key_text_color: tgn}
       - {click: Return, key_back_color: benter, key_text_color: tenter}
@@ -522,6 +522,28 @@ preset_keyboards:
     - {click: BackSpace, width: 40, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 
 preset_keys:
+  # 英文符號
+  Comma: {label: ',', commit: ','}
+  Period: {label: '.', commit: '.'}
+  Apostrophe: {label: "'", commit: "'"}
+  quotationMark: {label: '"', commit: '"'}
+  Underline: {label: '_', commit: '_'}
+  Backslash: {label: '\', commit: '\'}
+  Slash: {label: '/', commit: '/'}
+  ParenthesesA: {label: '()', commit: '()'}
+  Parentheses: {label: '()', text: '{ParenthesesA}'}
+  BracketsA: {label: '[]', commit: '[]',}
+  Brackets: {label: '[]', text: '{BracketsA}{Left}'}
+  BracesA: {label: '{}', commit: '{}'}
+  Braces: {label: '{}', text: '{BracesA}{Left}'}
+  ChevronsA: {label: '< >', commit: '<>'}
+  Chevrons: {label: '< >', text: '{ChevronsA}{Left}'}
+  Asterisk: {label: '*', commit: '*'}
+  Percent: {label: '%', commit: '%'}
+
+  # 中文符號
+  doubleDash: {label: '—', commit: '——'}
+
   # 安卓
   BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
   BRIGHTNESS_UP: {label: 亮度+, send: BRIGHTNESS_UP}
