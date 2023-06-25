@@ -7,7 +7,7 @@
 # To-Do
 - 添加更多配色
 - 添加音效
-- 解決英文符號輸入的難題
+- [x] 解決英文符號輸入的難題
   
 # 如何安裝？
 1. 在 [Releases](https://github.com/ChiesiMario/trime_fira_theme/releases) 中下載配置文件
