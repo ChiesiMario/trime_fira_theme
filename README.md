@@ -24,6 +24,3 @@
 | ![fira_dark_1](./screenshot/fira_dark_1.png) | ![fira_light_1](./screenshot/fira_light_1.png) |
 |:--:| :--:|
 | Fira Dark | Fira Light |
-
-| ![fira_dark_2](./screenshot/fira_dark_2.png) | ![fira_light_3](./screenshot/fira_dark_3.png) | ![fira_dark_5](./screenshot/fira_dark_5.png) | ![fira_dark_6](./screenshot/fira_dark_6.png) |
-|:--:| :--:| :--:| :--:|
