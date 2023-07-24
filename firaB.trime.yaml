@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 config_version: "1.3"
-name: Fira          # 方案名稱
+name: Fira（底部數字鍵盤）          # 方案名稱
 author: ChiesiMario        # 作者信息
 
 # 鍵盤按鍵高度
@@ -297,17 +297,6 @@ preset_keyboards:
     # height: 45
     ascii_mode: 0
     keys:
-      - {click: '{1+}', long_click: '!', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18, height: 30}
-      - {click: '{2+}', long_click: '@', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{3+}', long_click: '#', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{4+}', long_click: '$', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{5+}', long_click: '%', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{6+}', long_click: '^', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{7+}', long_click: '&', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{8+}', long_click: '*', swipe_down: '※', hint: "_", key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{9+}', long_click: '(){Left}', swipe_down: '{Parentheses}{Left}', hint: "_", key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
-      - {click: '{0+}', long_click: '{Hyphen-minus}', swipe_down: '{doubleDash}', hint: "_", key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18} 
-
       - {click: q, long_click: '~', key_back_color: bh2, key_text_color: th2}
       - {click: w, long_click: '{Graveaccent}', key_back_color: bh2, key_text_color: th2}
       - {click: e, long_click: '+', key_back_color: bh2, key_text_color: th2}
@@ -348,8 +337,18 @@ preset_keyboards:
       - {click: Right, long_click: End , composing: Page_Down,  key_back_color: bgn, key_text_color: tgn}
       - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, swipe_down: 'Period',  hint: "_", key_back_color: bh4, key_text_color: th4}
       - {click: Return, composing: Return1, width: 15, key_back_color: benter, key_text_color: tenter, key_text_offset_y: 0}
-      
-      - {height: 3, width: 100}
+
+      - {click: '{1+}', long_click: '!', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18, height: 30}
+      - {click: '{2+}', long_click: '@', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{3+}', long_click: '#', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{4+}', long_click: '$', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{5+}', long_click: '%', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{6+}', long_click: '^', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{7+}', long_click: '&', key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{8+}', long_click: '*', swipe_down: '※', hint: "_", key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{9+}', long_click: '(){Left}', swipe_down: '{Parentheses}{Left}', hint: "_", key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18}
+      - {click: '{0+}', long_click: '{Hyphen-minus}', swipe_down: '{doubleDash}', hint: "_", key_back_color: bh1, key_text_color: th1, key_text_offset_y: 6, key_text_size: 18} 
+
 
   number:
     author: "ChiesiMario"
