@@ -15,6 +15,8 @@
 1. 在 [Releases](https://github.com/ChiesiMario/trime_fira_theme/releases) 中下載配置文件
 2. 解壓到 Trime 的配置目錄首頁
 3. 重啟 Trime 後選取 Fira 主題即可
+  - `fira` 爲正常的數字鍵盤在最上面
+  - `firaB` 的數字鍵盤則在最下面
    
 但由於 Trime 的不穩定性，不能確保各個系統之間是否能順利使用，測試通過的 Trime 版本見 Releases 下的說明。
 
