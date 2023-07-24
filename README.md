@@ -20,8 +20,6 @@
    
 但由於 Trime 的不穩定性，不能確保各個系統之間是否能順利使用，測試通過的 Trime 版本見 Releases 下的說明。
 
-# 📱 截圖
-
 | ![fira_dark_1](./screenshot/fira_dark_1.png) | ![fira_light_1](./screenshot/fira_light_1.png) |
 |:--:| :--:|
 | Fira Dark | Fira Light |
