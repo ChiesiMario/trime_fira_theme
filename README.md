@@ -21,6 +21,10 @@
 但由於 Trime 的不穩定性，不能確保各個系統之間是否能順利使用，測試通過的 Trime 版本見 Releases 下的說明。
 
 # 📱 截圖
-| ![fira_dark_1](./screenshot/fira_dark_1.png) | ![fira_light_1](./screenshot/fira_light_1.png) |
-|:--:| :--:|
-| Fira Dark | Fira Light |
+| ![fira_light_1](./screenshot/fira_light_1.png) | ![fira_light_2](./screenshot/fira_light_2.png) | ![fira_light_3](./screenshot/fira_light_3.png) |
+|:--:| :--:| :--:|
+| Fira Light 主鍵盤 | 數字符號鍵盤| 數字鍵盤|
+
+| ![fira_dark_1](./screenshot/fira_dark_1.png) | ![fira_dark_2](./screenshot/fira_dark_2.png) | ![fira_dark_3](./screenshot/fira_dark_3.png) |
+|:--:| :--:| :--:|
+| Fira Dark 主鍵盤 | 數字符號鍵盤| 數字鍵盤|
