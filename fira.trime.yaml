@@ -304,7 +304,7 @@ preset_keyboards:
       - {click: t, long_click: '$', key_back_color: bh2, key_text_color: th2}
       - {click: y, long_click: '^', key_back_color: bh2, key_text_color: th2}
       - {click: u, long_click: '&', key_back_color: bh2, key_text_color: th2}
-      - {click: i, long_click: '*', key_back_color: bh2, key_text_color: th2, key_symbol_offset_y: -2}
+      - {click: i, long_click: '*', key_back_color: bh2, key_text_color: th2}
       - {click: o, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
       - {click: p, long_click: '{doubleDash}', key_back_color: bh2, key_text_color: th2}
 
@@ -401,22 +401,22 @@ preset_keyboards:
       - {click: 1}
       - {click: 2}
       - {click: 3}
-      - {click: '+', key_back_color: bgn, key_text_color: tgn}
-      - {click: '{Asterisk}', key_back_color: bgn, key_text_color: tgn}
-      - {click: '{Brackets}', long_click: '{Braces}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '+', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Asterisk}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Brackets}', long_click: '{Braces}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
 
 
       - {click: 4}
       - {click: 5}
       - {click: 6}
-      - {click: '-', long_click: '{Percent}', key_back_color: bgn, key_text_color: tgn}
-      - {click: '{Underline}', key_back_color: bgn, key_text_color: tgn}
-      - {click: '{Slash}', long_click: '{Backslash}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '-', long_click: '{Percent}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Underline}', key_back_color: bgn, key_text_size: 20, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Slash}', long_click: '{Backslash}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
 
       - {click: 7}
       - {click: 8}
       - {click: 9}
-      - {click: '{Parentheses}{Left}', long_click: '@', key_back_color: bgn, key_text_color: tgn}
+      - {click: '{Parentheses}', long_click: '@', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
       - {click: BackSpace, width: 33.2, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_default, key_back_color: bgn, key_text_color: 'tgn'}
