@@ -219,7 +219,7 @@ preset_color_schemes:
     # ----------------------------------------
     name: "Fira Light"  # 方案名稱
     author: ChiesiMario # 作者信息
-    light_scheme: fira_dark # 視當前為淺色模式的配色。当系统切换为深色模式后，切換至該主題
+    dark_scheme: fira_dark # 視當前為淺色模式的配色。当系统切换为深色模式后，切換至該主題
     back_color: *Fira_light_color3 # 候選區背景狀態欄
     border_color: *Fira_light_color1 # 邊框顏色
     candidate_separator_color: 0xffFF0000 # 候選分割背景
