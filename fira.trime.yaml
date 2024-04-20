@@ -398,29 +398,29 @@ preset_keyboards:
     ascii_mode: 1
     keys:
     
-      - {click: 1}
-      - {click: 2}
-      - {click: 3}
+      - {click: 1, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 2, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 3, key_back_color: key_back_color, key_text_color: key_text_color}
       - {click: '+', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
       - {click: '{Asterisk}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
       - {click: '{Brackets}', long_click: '{Braces}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
 
 
-      - {click: 4}
-      - {click: 5}
-      - {click: 6}
+      - {click: 4, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 5, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 6, key_back_color: key_back_color, key_text_color: key_text_color}
       - {click: '-', long_click: '{Percent}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
       - {click: '{Underline}', key_back_color: bgn, key_text_size: 20, key_text_color: tgn, key_text_offset_y: 5}
       - {click: '{Slash}', long_click: '{Backslash}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
 
-      - {click: 7}
-      - {click: 8}
-      - {click: 9}
+      - {click: 7, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 8, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 9, key_back_color: key_back_color, key_text_color: key_text_color}
       - {click: '{Parentheses}', long_click: '@', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
       - {click: BackSpace, width: 33.2, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_default, key_back_color: bgn, key_text_color: 'tgn'}
-      - {click: 0}
+      - {click: 0, key_back_color: key_back_color, key_text_color: key_text_color}
       - {click: '{Period}', long_click: '{Comma}', key_back_color: bgn, key_text_color: tgn}
       - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
       - {click: space1, key_back_color: bgn, key_text_color: tgn}
