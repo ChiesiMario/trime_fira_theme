@@ -158,7 +158,7 @@ preset_color_schemes:
     7: &fira_dark_color6 0xff000000 # 強調文本色 
     8: &fira_dark_color7 0xffB6B6B6 # 次要文本色
     # ----------------------------------------
-    name: "*Fira Dark"  # 方案名稱
+    name: "Fira Dark"  # 方案名稱
     author: ChiesiMario # 作者信息
     light_scheme: fira_light # 視當前為深色模式的配色。当系统切换为淺色模式后，切換至該主題
     back_color: *fira_dark_color3 # 候選區背景狀態欄
@@ -217,7 +217,7 @@ preset_color_schemes:
     7: &fira_light_color6 0xffffffff # 強調文本色 
     8: &fira_light_color7 0xff5d5e5f # 次要文本色
     # ----------------------------------------
-    name: "*Fira Light"  # 方案名稱
+    name: "Fira Light"  # 方案名稱
     author: ChiesiMario # 作者信息
     dark_scheme: fira_dark # 視當前為淺色模式的配色。当系统切换为深色模式后，切換至該主題
     back_color: *fira_light_color3 # 候選區背景狀態欄
