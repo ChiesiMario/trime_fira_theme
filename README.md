@@ -20,8 +20,8 @@
 
 # 📱 佈局
 |:--:|:--:|:--:|
-| 數字符號鍵盤 | 主鍵盤 | 數字鍵盤 |
 | ![fira_light_2](./screenshot/fira_light_2.png) | ![fira_light_1](./screenshot/fira_light_1.png) | ![fira_light_3](./screenshot/fira_light_3.png) |
+| 數字符號鍵盤 | 主鍵盤 | 數字鍵盤 |
 
 
 | Fira Dark   |Fira Dimmed (Dark)|
