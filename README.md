@@ -25,9 +25,9 @@
 | 數字符號鍵盤 | 主鍵盤 | 數字鍵盤 |
 
 
-|| Fira Dark   ||
-|:--:|:--:|:--:|
-| ![fira_dark_2](./screenshot/fira_dark_2.png) | ![fira_dark_1](./screenshot/fira_dark_1.png) | ![fira_dark_3](./screenshot/fira_dark_3.png) |
+| Fira Dark   |Fira Dimmed (Dark)|
+|:--:|:--:|
+| ![fira_dark_2](./screenshot/fira_dark_1.png) | ![fira_dark_1](./screenshot/fira_dark_dimmed_1.png) |
 | 數字符號鍵盤 | 主鍵盤 | 數字鍵盤 |
 
 後續將添加更多配色……
