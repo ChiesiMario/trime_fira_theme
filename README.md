@@ -23,9 +23,13 @@
 |:--:|:--:|:--:|
 | ![fira_light_2](./screenshot/fira_light_2.png) | ![fira_light_1](./screenshot/fira_light_1.png) | ![fira_light_3](./screenshot/fira_light_3.png) |
 
-
-| Fira Dark   |Fira Dimmed (Dark)|
+# 🌈 配色
+| Fira Light   |Fira Dark|
 |:--:|:--:|
-| ![fira_dark_2](./screenshot/fira_dark_1.png) | ![fira_dark_1](./screenshot/fira_dark_dimmed_1.png) |
+| ![fira_light](./screenshot/fira_light_1.png) | ![fira_dark](./screenshot/fira_dark_1.png) |
+
+| Fira Dimmed   |Fira Dimmed (Dark)|
+|:--:|:--:|
+| ![fira_dimmed](./screenshot/fira_light_dimmed_1.png) | ![fira_dark_dimmed](./screenshot/fira_dark_dimmed_1.png) |
 
 後續將添加更多配色……
