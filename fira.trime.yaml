@@ -154,7 +154,7 @@ preset_color_schemes:
     2: &fira_dark_color2 0xff393c3f # 主要按鍵背景色
     3: &fira_dark_color3 0xff000000 # 主要背景色
     4: &fira_dark_color4 0xff676767 # 功能鍵背景色
-    6: &fira_dark_color5 0xff28d66a # 強調背景色 
+    6: &fira_dark_color5 0xff2472e1 # 強調背景色 
     7: &fira_dark_color6 0xff000000 # 強調文本色 
     8: &fira_dark_color7 0xffB6B6B6 # 次要文本色
     # ----------------------------------------
@@ -209,7 +209,7 @@ preset_color_schemes:
 # Fira Light 配色方案
   fira_light:
     # 顏色定義
-    1: &fira_light_color1 0xff464646 # 主要文本色
+    1: &fira_light_color1 0xff656565 # 主要文本色
     2: &fira_light_color2 0xffffffff # 主要按鍵背景色
     3: &fira_light_color3 0xffe7e9eb # 主要背景色
     4: &fira_light_color4 0xffcacdd3 # 功能鍵背景色
