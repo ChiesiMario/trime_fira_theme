@@ -265,6 +265,65 @@ preset_color_schemes:
     bh4: *fira_light_color2 # 第四行背景色
     th4: *fira_light_color1 # 第四行文字顏色
 
+# Fira Dimmed (Dark) 配色方案
+  fira_dark_dimmed:
+    # 顏色定義
+    1: &fira_dark_dimmed_color1 0xffc5d1de # 主要文本色
+    2: &fira_dark_dimmed_color2 0xff2b3038 # 主要按鍵背景色
+    3: &fira_dark_dimmed_color3 0xff22272e # 主要背景色
+    4: &fira_dark_dimmed_color4 0xff373e47 # 功能鍵背景色
+    6: &fira_dark_dimmed_color5 0xff2472e1 # 強調背景色 
+    7: &fira_dark_dimmed_color6 0xffc5d1de # 強調文本色 
+    8: &fira_dark_dimmed_color7 0xff717d7e # 次要文本色
+    # ----------------------------------------
+    name: "Fira Dimmed (Dark)"  # 方案名稱
+    author: ChiesiMario # 作者信息
+    dark_scheme: fira_dark # 視當前為淺色模式的配色。当系统切换为深色模式后，切換至該主題
+    back_color: *fira_dark_dimmed_color3 # 候選區背景狀態欄
+    border_color: *fira_dark_dimmed_color1 # 邊框顏色
+    candidate_separator_color: 0xffFF0000 # 候選分割背景
+    candidate_text_color: *fira_dark_dimmed_color1 # 候選文本
+    comment_text_color: *fira_dark_dimmed_color7 # 提示
+    hilited_back_color: *fira_dark_dimmed_color3 # 高亮編碼背景
+    hilited_candidate_back_color: *fira_dark_dimmed_color3 # 高亮候選背景
+    hilited_candidate_text_color: *fira_dark_dimmed_color5 # 高亮候選文本
+    hilited_comment_text_color: *fira_dark_dimmed_color7 # 高亮提示
+    hilited_key_back_color: *fira_dark_dimmed_color5 # 高亮按鍵背景
+    hilited_key_symbol_color: *fira_dark_dimmed_color6 # 高亮按鍵符號
+    hilited_key_text_color: *fira_dark_dimmed_color6 # 高亮按鍵文本
+    hilited_off_key_back_color: *fira_dark_dimmed_color5 # 高亮按鍵關閉狀態背景
+    hilited_off_key_text_color: *fira_dark_dimmed_color6 # 高亮按鍵關閉狀態文本
+    hilited_text_color: *fira_dark_dimmed_color1 # 高亮編碼
+    key_back_color: *fira_dark_dimmed_color2 # 按鍵背景
+    key_symbol_color: *fira_dark_dimmed_color7 # 按鍵符號
+    key_text_color: *fira_dark_dimmed_color1 # 按鍵文本
+    keyboard_back_color: *fira_dark_dimmed_color3 # 鍵盤背景
+    label_color: *fira_dark_dimmed_color5 # 標籤
+    off_key_back_color: *fira_dark_dimmed_color4  # 按鍵關閉狀態背景
+    off_key_text_color: *fira_dark_dimmed_color7 # 按鍵關閉狀態文本
+    preview_back_color: *fira_dark_dimmed_color4 # 按鍵提示背景
+    preview_text_color: *fira_dark_dimmed_color5 # 按鍵提示文本
+    text_color: *fira_dark_dimmed_color5 # 編碼
+    text_back_color: *fira_dark_dimmed_color3 # 編碼區背景
+    bkg: *fira_dark_dimmed_color2 # 空格鍵背景色
+    tkg: *fira_dark_dimmed_color1 # 空格鍵文字顏色
+    benter: *fira_dark_dimmed_color5 # 回車鍵背景色
+    tenter: *fira_dark_dimmed_color6 # 回車鍵文字顏色
+    bgn: *fira_dark_dimmed_color4 # 功能鍵背景色
+    tgn: *fira_dark_dimmed_color1 # 功能鍵文字顏色
+    bbs: *fira_dark_dimmed_color4 # 退格鍵背景色
+    tbs: *fira_dark_dimmed_color1 # 退格鍵文字顏色
+    baoe: *fira_dark_dimmed_color2 # aoeiu 背景色
+    taoe: *fira_dark_dimmed_color5 # aoeiu 文字顏色
+    bh1: *fira_dark_dimmed_color2 # 第一行背景色
+    th1: *fira_dark_dimmed_color1 # 第一行文字顏色
+    bh2: *fira_dark_dimmed_color2 # 第二行背景色
+    th2: *fira_dark_dimmed_color1 # 第二行文字顏色
+    bh3: *fira_dark_dimmed_color2 # 第三行背景色
+    th3: *fira_dark_dimmed_color1 # 第三行文字顏色
+    bh4: *fira_dark_dimmed_color2 # 第四行背景色
+    th4: *fira_dark_dimmed_color1 # 第四行文字顏色
+
 #--------配色結束----------------#
 
 liquid_keyboard:
