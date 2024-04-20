@@ -276,7 +276,7 @@ preset_color_schemes:
     7: &fira_light_dimmed_color6 0xffF2F2F2 # 強調文本色 
     8: &fira_light_dimmed_color7 0xff636363 # 次要文本色
     # ----------------------------------------
-    name: "Fira Tritanopia"  # 方案名稱
+    name: "Fira Dimmed"  # 方案名稱
     author: ChiesiMario # 作者信息
     dark_scheme: fira_dark_dimmed # 視當前為淺色模式的配色。当系统切换为深色模式后，切換至該主題
     back_color: *fira_light_dimmed_color3 # 候選區背景狀態欄
