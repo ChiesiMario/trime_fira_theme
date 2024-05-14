@@ -34,4 +34,8 @@
 |:--:|:--:|
 | ![fira_dimmed](./screenshot/fira_light_dimmed_1.png) | ![fira_dark_dimmed](./screenshot/fira_dark_dimmed_1.png) |
 
+| Fira Pink   |Fira Pink (Dark)|
+|:--:|:--:|
+| ![fira_pink](./screenshot/fira_pink.png) | ![fira_dark_dimmed](./screenshot/fira_pink_dark.png) |
+
 後續將添加更多配色……
