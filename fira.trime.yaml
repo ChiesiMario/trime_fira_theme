@@ -909,8 +909,8 @@ preset_keys:
   Insert: {label: 插入, send: Insert}
   Delete: {label: 刪除, send: Delete, functional: false}
   End: {label: 行尾, send: End, functional: false}
-  Page_Up: {label: ⬆️, send: Page_Up, functional: false}
-  Page_Down: {label: ⬇️, send: Page_Down, functional: false}
+  Page_Up: {label: ↑, send: Page_Up, functional: false}
+  Page_Down: {label: ↓, send: Page_Down, functional: false}
   Left: {label: '←', send: Left, repeatable: true, functional: false}
   Down: {label: '↓', send: Down, functional: false}
   Up: {label: '↑', send: Up, functional: false}
