@@ -1,7 +1,7 @@
 # Trime custom style settings
 # encoding: utf-8
 
-config_version: "3.1"
+config_version: "3.2"
 name: Fira
 author: ChiesiMario
 
@@ -31,7 +31,7 @@ style:
   candidate_spacing: 0  # 候選間距
   candidate_text_size: 20  # 候選字號
   candidate_use_cursor: true # 高亮候選項
-  candidate_view_height: 40 # 候選區高度
+  candidate_view_height: 20 # 候選區高度
   color_scheme: fira_dark # 配色方案
   comment_font: comment.ttf # 編碼提示字體
   comment_height: 25 # 編碼提示區高度
@@ -514,11 +514,14 @@ liquid_keyboard:
   single_width: 60    # single 類型的按鍵寬度
   vertical_gap: 8     # 縱向按鍵間隙
   margin_x: 2       # 左右按鍵間隙的 1/2
+  fixed_key_bar: # 固定按键条
+    position: bottom  # 摆放位置：top|bottom|left|right
+    keys: # 按键（显示名称为对应的 label，不能放太多）
+      - liquid_keyboard_exit
+      - space1
+      - BackSpace
+      - Return2
   keyboards: [ exit, clipboard]  # tab 列表
-  exit:
-    name: 返回
-    type: NO_KEY
-    keys: EXIT
   clipboard:
     type: CLIPBOARD
     name: 剪貼板
@@ -895,6 +898,7 @@ preset_keys:
   Shift_L: {label: Shift, preview: '⇪', functional: false, send: Shift_L}
   Return: { label: enter_labels, preview: '↩', functional: false, send: Return }
   Return1: {label: Enter, preview: '↩', functional: false, send: Return}
+  Return2: {label: 回车, send: Return }
   Hide: {label: 隱藏, send: BACK}
   BackSpace: {label: 退格, preview: '⇦', repeatable: true, functional: false, send: BackSpace}
   space: {repeatable: false, preview: ' ', functional: false, label: '_______', send: space}
@@ -934,6 +938,7 @@ preset_keys:
   CommitComment: {label: 編碼, send: Control+Shift+Return}
   DeleteCandidate: {label: 刪詞, send: Control+Delete, functional: false}
   # 切換鍵盤
+  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"} 
   Keyboard_default: { label: 返回, functional: false, send: Eisu_toggle, select: .default }
   Keyboard_number: { label: 123, functional: false, send: Eisu_toggle, select: number }
   Keyboard_switch: { label: 鍵盤, functional: true, send: Eisu_toggle, select: .next }
